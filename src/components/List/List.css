@@ -1,0 +1,43 @@
+.list-component{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+.list-component div{
+    display: flex;
+    flex-direction: column;
+    margin:15px 15px;
+    font-size: medium;
+}
+
+.list-component img{
+    width: 75px;
+    height:75px;
+    object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+  margin-left: 10px;
+
+}
+
+@media screen and (max-width:445px) {
+
+    .list-component{
+        margin: 5px;
+    }
+    .list-component div{
+        
+        margin:7.5px 7.5px;
+        font-size: medium;
+    }
+    
+    .list-component img{
+        width: 40px;
+        height:40px;
+        
+      margin-left: 5px;
+    
+    }
+
+}
